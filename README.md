@@ -52,7 +52,7 @@ https://blog.cccyun.cn/post-431.html
 
 如果是官方版本使用脚本降级
 
-*SSH运行命令，运行宝塔Linux工具箱
+* SSH运行命令，运行宝塔Linux工具箱
 原链接
 ```bash
 wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && bash btpanel_tools.sh
@@ -63,13 +63,13 @@ wget -O btpanel_tools.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/mai
 ```
 输入14等待降级成功即可
 
-*解锁专业版
+**解锁专业版**
 
 进入路径www/server/panel/data，编辑plugin.json文件，点击替换按钮，搜索"endtime": -1替换为"endtime": 999999999999，搜索is_user_status，在后面一点找到 "ltd”: -1 和 "pro": -1 将这两个 -1 改为 0。保存后在面板设置中授权版本改成Pro
 
-*ltd是企业版，pro是专业版，-1代表没授权，0代表专业版永久授权，然后点击保存按钮即可。
+* ltd是企业版，pro是专业版，-1代表没授权，0代表专业版永久授权，然后点击保存按钮即可。
 
-*防止宝塔会自动修复
+* 防止宝塔会自动修复
 
 打开宝塔离线模式
 
