@@ -56,11 +56,15 @@ https://blog.cccyun.cn/post-431.html
 原链接
 ```bash
 wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && bash btpanel_tools.sh
+```
+```bash
 curl http://f.cccyun.cc/bt/update_panel.sh|bash
 ```
 如果原链接无法访问
 ```bash
 wget -O btpanel_tools.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/btpanel_tools.sh && bash btpanel_tools.sh
+```
+```bash
 curl https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/update_panel.sh|bash
 ```
 输入14等待降级成功即可
