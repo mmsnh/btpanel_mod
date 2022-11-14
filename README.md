@@ -65,11 +65,11 @@ wget -O btpanel_tools.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/mai
 
 **解锁专业版**
 
-进入路径www/server/panel/data，编辑plugin.json文件，点击替换按钮，搜索"endtime": -1替换为"endtime": 999999999999，搜索is_user_status，在后面一点找到 "ltd”: -1 和 "pro": -1 将这两个 -1 改为 0。保存后在面板设置中授权版本改成Pro
+进入路径<code>www/server/panel/data</code>，编辑plugin.json文件，点击替换按钮，搜索<code>"endtime": -1</code>替换为<code>"endtime": 999999999999</code>，搜索<code>is_user_status</code>，在后面一点找到 <code>"ltd”: -1</code>和 <code>"pro": -1</code>将这两个 -1 改为 0。保存后在面板设置中授权版本改成你需要的版本
 
 * ltd是企业版，pro是专业版，-1代表没授权，0代表专业版永久授权，然后点击保存按钮即可。
 
-* 防止宝塔会自动修复
+**防止宝塔会自动修复**
 
 打开宝塔离线模式
 
