@@ -6,6 +6,8 @@
 
 修复：兼容新版本面板运行环境、修复面板XSS高危漏洞。
 
+安装wget:<code>yum install wget</code>
+
 * 原链接
 ```bash
 wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh
