@@ -1,5 +1,16 @@
 ## 宝塔面板7.7安装脚本&优化补丁
 
+**宝塔面板7.7原装安装脚本和升级脚本**
+
+安装命令：
+```bash
+  yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/install_6.0.sh && bash install.sh
+```
+升级到7.7版本命令：
+```bash
+curl https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/update6.sh|bash
+```
+
 **宝塔面板7.7优化版安装脚本**
 
 优化：去除无用接口、减少无用代码执行、减少对于宝塔云端请求、去除面板广告等，保持面板干净清爽。
@@ -10,11 +21,11 @@
 
 * 原链接
 ```bash
-wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh
+  yum install -y wget && wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh
 ```
 * 如果原链接无法访问
 ```bash
-wget -O install.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/install_6.0.sh && bash install.sh
+  yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/install_6.0.sh && bash install.sh
 ```
 
 **宝塔面板7.7一键优化补丁**
@@ -45,10 +56,6 @@ wget -O optimize.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/opt
 ```bash
 wget -O optimize.sh https://raw.githubusercontent.com/mmsnh/btpanel_mod/main/optimize_mod2.sh && bash optimize.sh
 ```
-
-Credit @消失的彩虹海  
-https://blog.cccyun.cn/post-433.html  
-https://blog.cccyun.cn/post-431.html
 
 **降级方法**
 
